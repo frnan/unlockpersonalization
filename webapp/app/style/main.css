@@ -139,3 +139,7 @@ ou entre ng-leave et ng-leave-active.
 .icon-users-grid-row:last-child{
   padding-bottom:0;
 }
+
+.icon-users-grid-row .col-md-2 {
+  padding-bottom: 50px;
+}
