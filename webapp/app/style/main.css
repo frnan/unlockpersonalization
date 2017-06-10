@@ -143,3 +143,86 @@ ou entre ng-leave et ng-leave-active.
 .icon-users-grid-row .col-md-2 {
   padding-bottom: 50px;
 }
+
+
+.icon-user-dashboard {
+  padding-top:15px;
+}
+
+.icon-client-rowtop {
+  background: transparent url('../img/fond_tropiques.png')  no-repeat center center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  margin:0;
+  padding:0;
+}
+
+.icon-client-id {
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.icon-client-id i {
+  font-size: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.icon-client-sale-data {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.icon-client-sale-separator {
+    border-bottom: 2px solid grey;
+    padding-top: 15px;
+}
+
+
+.icon-client-purchase-img img {
+  border-radius: 25px;
+  width: 25px;
+  border-radius: 80px;
+  width: 141px;
+  margin-top: -80px;
+}
+
+.icon-client-purchase-img, .icon-client-purchase-text {
+  display: inline-block;
+}
+
+.icon-client-visit {
+  text-align: center;
+}
+
+.icon-client-visit-text, .icon-client-visit-img {
+  display: inline-block;
+}
+
+.icon-client-visit-img img {
+  width: 141px;
+}
+
+
+.icon-client-content-to-push-block {
+  border: 2px solid grey;
+  text-align: center;
+}
+
+.icon-client-content-to-push-block i {
+  float:right;
+  color:red;
+  font-size:30px;
+}
+
+.icon-client-content-to-push-actions {
+  text-align: center;
+  padding-top: 8px;
+}
+
+.icon-client-content-to-push-actions button {
+  width: 49%;
+}
