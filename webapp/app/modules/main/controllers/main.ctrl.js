@@ -11,8 +11,18 @@ function MainCtrl($scope, $timeout) {
 		socket.emit('clientAdviserMessage', 'Salut serveur, ça va ?');
 	}*/
 
-	/*socket.on('message', function(message) {
-        alert('Le serveur a un message pour vous : ' + message);
-    });*/
+	$scope.vm = {};
+
+	socket.on('message', function(message) {
+        
+        $timeout(function(){
+        	$scope.vm.newItem = true;
+			$scope.vm.activeClass = true;
+        	/*setTimeout(function(){
+        		$scope.vm.activeClass = false;
+        	}, 1500);*/
+
+    	}, 0);
+    });
 
 }

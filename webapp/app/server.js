@@ -62,9 +62,9 @@ io.sockets.on('connection', function (socket) {
     console.log('Un client est connecté !');
     //socket.emit('message', 'Vous êtes bien connecté !');
 
-    socket.on('clientAdviserMessage', function (message) {
+    socket.on('clientAdviserPush', function (message) {
         console.log('Un client me parle ! Il me dit : ' + message);
-        socket.emit('message', 'Un nouveau contenu à ajouter !');
+        socket.broadcast.emit('message', 'Un nouveau contenu à ajouter !');
     });
 
 });
