@@ -71,6 +71,14 @@ ou entre ng-leave et ng-leave-active.
     opacity:1;
 }
 
+.icon-header-left a{
+  color:#ffffff;
+}
+
+.icon-header-left a:hover{
+text-decoration: none;
+}
+
 .icon-header-right {
   text-align: right;
 }
@@ -166,7 +174,7 @@ ou entre ng-leave et ng-leave-active.
 
 .icon-client-id i {
   font-size: 25px;
-  padding-right: 25px;
+  padding-right: 10px;
   padding-left: 25px;
 }
 
