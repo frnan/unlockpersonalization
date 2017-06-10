@@ -38,7 +38,8 @@
     "angular-ui-grid": "*",
     "ng-idle" : "1.3.1",
     "angular-file-upload" : "*",
-    "components-font-awesome": "*"
+    "components-font-awesome": "*",
+    "bootstrap": "*"
   },
   "ignore": [],
   "devDependencies": {

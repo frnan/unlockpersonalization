@@ -37,13 +37,6 @@
     font-size: 22px;
 }
 
-/*.cd-timeline-block.active {
-  border: 1px dotted red;
-  padding: 10px;
-  transition: padding 2s ease;
-}*/
-
-
 /*
 Pour dire en CSS3 ce qui devra être animé :
 Angular ajoute dynamiquement des classes CSS.
@@ -76,4 +69,73 @@ ou entre ng-leave et ng-leave-active.
  .animate-if.ng-leave.ng-leave-active {
     max-height: 0;
     opacity:1;
+}
+
+.icon-header-right {
+  text-align: right;
+}
+
+.icon-header-right div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-header-right-user{
+  padding-right: 10px;
+}
+
+.icon-header-right-power {
+  font-size: 37px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  color: #000000;
+  height: 50px;
+  width: 50px;
+  padding-right: 9px;
+}
+
+.icon-header-banner {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.icon-header-welcome {
+    background-color: #DFDAD8;
+}
+
+.icon-header-welcome h3{
+  color: #5F5F5F;
+}
+
+.icon-users-grid {
+  padding-top: 60px;
+}
+
+.icon-client-block {
+    text-align: center;
+    background-color: #DFDAD8;
+    padding-bottom: 2px;
+}
+
+.icon-client-block img {
+    margin-top: -40px;
+    width: 100px;
+    border-radius: 46px;
+}
+
+.icon-client-block p {
+  font-size: 26px;
+  color: #000000;
+}
+
+.icon-client-block a:hover {
+  text-decoration: none;
+}
+
+.icon-users-grid-row {
+  padding-bottom: 50px;
+}
+
+.icon-users-grid-row:last-child{
+  padding-bottom:0;
 }
