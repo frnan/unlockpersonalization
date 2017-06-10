@@ -1,0 +1,26 @@
+.cd-timeline-content-footer-time {
+  float: right;
+  color: #BE5108;
+}
+
+.cd-timeline-content-footer {
+  color: #BE5108;
+}
+
+.cd-timeline-content-footer i {
+  color: #BE5108;
+  padding-right: 5px;
+}
+
+.cd-timeline-content-head-img, .cd-timeline-content-head-name{
+  display: inline-block; 
+}
+
+.cd-timeline-content-head-img img {
+  width: 45px;
+  border-radius: 25px;
+}
+
+.cd-timeline-content-head-name{
+  vertical-align: top;
+}
