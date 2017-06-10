@@ -2,10 +2,10 @@
 
 tlApp.controller('MainCtrl', MainCtrl);
 
-MainCtrl.$inject = ['$scope'];
+MainCtrl.$inject = ['$scope', '$timeout'];
 
 
-function MainCtrl($scope) {
+function MainCtrl($scope, $timeout) {
 
 	/*$scope.onSendMessage = function(){
 		socket.emit('clientAdviserMessage', 'Salut serveur, ça va ?');

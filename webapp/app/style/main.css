@@ -24,3 +24,15 @@
 .cd-timeline-content-head-name{
   vertical-align: top;
 }
+
+
+.cd-timeline-content-type {
+	display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    color: #ffffff;
+    font-size: 22px;
+}
