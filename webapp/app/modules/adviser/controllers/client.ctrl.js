@@ -7,10 +7,12 @@ ClientCtrl.$inject = ['$scope'];
 
 function ClientCtrl($scope) {
 
+	$scope.vm = {};
+	$scope.vm.isClientView=true;
 
 	$scope.pushItem = function(){
-		socket.emit('clientAdviserPush', 'Salut serveur, ça va ?');
-		alert("Message envoyé");
+		socket.emit('clientAdviserPush', 'Hi Server, How are you ?');
+		alert("Message sent !");
 		var domToPush = angular.element(document.querySelector('.icon-client-content-to-push-container'));
 		domToPush.remove();
 	}

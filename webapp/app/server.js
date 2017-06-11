@@ -59,12 +59,12 @@ var io = require('socket.io').listen(server);
 
 // Quand un client se connecte, on le note dans la console
 io.sockets.on('connection', function (socket) {
-    console.log('Un client est connecté !');
+    console.log('A client is connected !');
     //socket.emit('message', 'Vous êtes bien connecté !');
 
     socket.on('clientAdviserPush', function (message) {
-        console.log('Un client me parle ! Il me dit : ' + message);
-        socket.broadcast.emit('message', 'Un nouveau contenu à ajouter !');
+        console.log('A client is talking to me ! He says : ' + message);
+        socket.broadcast.emit('message', 'New content to add !');
     });
 
 });

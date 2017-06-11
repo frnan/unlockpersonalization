@@ -1,3 +1,10 @@
+<div class="container-fluid tl-header" ng-if="!vm.isClientView">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>MyLV Companion</h2>
+    </div>
+  </div>
+</div>
 <section id="cd-timeline" class="cd-container">
     <div ng-if="vm.newItem" ng-include="'modules/main/views/tlcontent.image.view.html'" class="animate-if"></div>
 
@@ -12,7 +19,7 @@
         </div>
         <p>Watch the video from the Asnières Workshop <a>#LouisVuitton</a></p>
         <div class="cd-timeline-content-footer">
-          <i class="fa fa-share-alt"></i>Partager
+          <i class="fa fa-share-alt"></i>Share
           <span class="cd-timeline-content-footer-time">6 days ago</span>
         </div>
       </div> <!-- cd-timeline-content -->
@@ -26,7 +33,7 @@
 
       <div class="cd-timeline-content">
         <div class="cd-timeline-content-music" id="dz-1">
-          <iframe style="width: 100%;" scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&color=007FEB&layout=dark&size=medium&type=album&id=7149538&app_id=238862"></iframe>
+          <iframe style="width: 100%; height:250px;" scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&color=007FEB&layout=dark&size=medium&type=album&id=7149538&app_id=238862"></iframe>
         </div>
         <p>Listen to the craftsman at work</p>
         <div class="cd-timeline-content-footer">

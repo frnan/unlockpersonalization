@@ -282,3 +282,11 @@ text-decoration: none;
     width: 100px;
     margin-left: 43%;
 }
+
+.tl-header {
+  background-color: #DFDAD8;
+}
+
+.cd-timeline-content p {
+  font-size: 14px;
+}
