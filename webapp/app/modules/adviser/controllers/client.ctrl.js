@@ -12,7 +12,7 @@ function ClientCtrl($scope) {
 
 	$scope.pushItem = function(){
 		socket.emit('clientAdviserPush', 'Hi Server, How are you ?');
-		alert("Message sent !");
+		//alert("Message sent !");
 		var domToPush = angular.element(document.querySelector('.icon-client-content-to-push-container'));
 		domToPush.remove();
 	}
